@@ -1,0 +1,25 @@
+site_name: 市场操纵
+site_url: https://caozong.icopy.site/
+theme:
+  font: false
+  name: material
+  palette:
+    primary: black
+    accent: white
+  language: zh
+  features:
+    - navigation.top
+
+extra_css:
+  - stylesheets/extra.css
+plugins:
+  - search:
+      prebuild_index: true
+      lang: ja
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+  - toc:
+      toc_depth: 3
+      permalink: true
