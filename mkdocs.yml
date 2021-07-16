@@ -1,8 +1,9 @@
-site_name: 市场操纵
-site_url: https://caozong.icopy.site/
+site_name: 证监会行政处罚
+site_url: https://chufa.icopy.site/
 theme:
   font: false
   name: material
+  custom_dir: overrides
   palette:
     primary: black
     accent: white
