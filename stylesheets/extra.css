@@ -1,0 +1,6 @@
+.md-typeset p{
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
